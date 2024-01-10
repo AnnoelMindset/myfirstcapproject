@@ -1,0 +1,21 @@
+{
+  "name": "caplevel1",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4",
+    "node": "^21.2.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-student_Detials": "cds watch --open student_Detials/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.120.1",
+    "sqlite3": "^5.1.7"
+  }
+}
